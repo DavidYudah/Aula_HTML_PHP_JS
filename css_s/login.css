@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*background-color: #f8f1f2;*/
+    color: #180F4A;
+    text-align: center;
+    padding: 0,5%;
+}
+header img{
+    width: 100%;
+    height: 250px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 45vh;
+}
+
+form {
+    background-color: white;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    float: center;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  
+}
+
+
+.cadastrar{
+    text-align: center;
+    color: rgb(0, 195, 255);
+    padding:0%;
+  }
+  
+a:hover{
+    color:#0af765;
+    text-decoration: none;
+ } 
+a{
+    text-decoration: none;
+    
+}
+
+.cads{
+    background-color: #180F4A;
+    color:white;
+    padding: 10px;
+    border-radius: 5px;
+}

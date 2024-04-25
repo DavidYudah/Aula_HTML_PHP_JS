@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descriptions" content="catalogo de produtos de beleza e saude">
+    <meta name="keywords" content="Maquiagem, acessorios, bolsas femininas">
+    <meta name="author" content="Adiane">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css_s/estilo.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1> Beleza & Estilo</h1>
+            </div>
+            <div class="menu">
+                <a id="sair" href="login.html">Fazer Login</a>      
+            </div>
+        </nav>
+        <div>
+        <img src="./img/horizontal-banne.jpg" alt="banner"></div> <!-- --> 
+    </header>
+    <div class="container">
+        <h1 style="text-align: center;">Cadastro de Usuário</h1>
+        <p style="text-align: center;">Faça seu Cadastro para aproveitar os benefícios de ser cliente da <strong>Beleza & Estilo</strong> </p>
+        <form action="cadastrar.php" method="post">
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" class="form-control" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" class="form-control" id="telefone" name="telefone" required>
+            </div>
+            <div class="form-group">
+                <label for="endereco">Endereço Completo:</label>
+                <input type="text" class="form-control" id="endereco" name="endereco" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" class="form-control" id="senha" name="senha" required>
+            </div>
+            <button style="width: auto; float: right;" type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <br><br>
+    <footer>
+        <a href="https://fucapi.edu.br/">
+            <img width="50" height="50" src="https://www.unirede.net/wp-content/uploads/2012/12/fucapi-logo.png" alt="">
+            <p>Desenvolvido pela turma de Informática </p>   
+        </a>
+        <br>
+        <p>&copy; Beleza & Estilo 2024 </p>
+    </footer>
+</body>
+</html>
