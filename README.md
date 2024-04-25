@@ -1,8 +1,10 @@
--Projeto de Página Web com PHP e Banco de Dados:
+**Aviso: Talvez possa ter alguns erros no CSS na pagina inicial, pórem, basta cliclar em logar ou cadastrar que o CSS volta a funcionar.**
+
+**Projeto de Página Web com PHP e Banco de Dados:**
 
 Este repositório contém uma página HTML básica que se conecta a um banco de dados utilizando PHP. O projeto inclui também estilização com CSS e funcionalidades dinâmicas com JavaScript. Ideal para quem está aprendendo a integrar tecnologias web com banco de dados.
 
--Recursos:
+**Recursos:**
 
 HTML: Estrutura da página.
 CSS: Estilização da página.
@@ -11,7 +13,7 @@ PHP: Script no lado do servidor para conectar com o banco de dados.
 MySQL: Sistema de gerenciamento de banco de dados.
 
 
--Pré-requisitos: 
+**Pré-requisitos:**
 
 Para executar este projeto, você precisará ter instalado em sua máquina:
 
@@ -20,21 +22,21 @@ MySQL (ou outro sistema de gerenciamento de banco de dados compatível)
 Um servidor web como Apache ou Nginx
 Um navegador moderno (Chrome, Firefox, Edge, etc.)
 
--Configuração:
+**Configuração:**
 
-Banco de Dados:
+**Banco de Dados:**
 
 Instale e configure o MySQL em seu computador.
 Crie um banco de dados chamado meudb.
 Importe o script SQL localizado em database/script.sql para configurar as tabelas necessárias.
 
 
-Configuração do Servidor: 
+**Configuração do Servidor:** 
 
 Clone o repositório em seu servidor local ou de hospedagem.
 Configure o ambiente do servidor para executar PHP e conectar-se ao MySQL.
 
-Configuração do PHP: 
+**Configuração do PHP:** 
 
  ---
 - Edite o arquivo config.php com as informações de conexão do banco de dados:
@@ -59,12 +61,12 @@ if($mysqli === false){
 ---
 
 
-Como Usar: 
+**Como Usar:** 
 
 Inicie o servidor web.
 Abra um navegador e acesse http://localhost/ ou o caminho configurado para o seu projeto.
 A página web deve ser carregada com o conteúdo gerado a partir do banco de dados.
 
-Contato:
+**Contato:**
 
 DavidYudah - squeiradavid@gmail.com
