@@ -30,7 +30,7 @@
     <div id="fale">
         <h1 id="texto-2"> Fale Conosco!</h1>
         <br><br>
-        <form class="contato">
+        <form class="contato" action="fale.php" method="POST">
             <label for="campo_nome">Nome</label>
             <input id="campo_nome" type="text" name="nome" placeholder="Digite seu nome" required>
             <br><br>
@@ -39,7 +39,7 @@
             <br><br>
             <textarea name="sms" placeholder="Digite sua mensagem" rows="15" cols="50" required></textarea>
             <br><br>
-            <button class="boton" onclick="alertaEnviar()">Enviar Mensagem</button>
+            <button type="submit" class="boton" onclick="alertaEnviar()">Enviar Mensagem</button>
             <br><br>
         </form>
     
@@ -60,6 +60,6 @@
         <p>&copy; Beleza & Estilo 2024 </p>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <script src="./js_s/script.js"></script>
 </body>
 </html>
